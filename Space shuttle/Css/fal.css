@@ -1,0 +1,237 @@
+body{
+  background-color: Black;
+}
+h1{
+  color:white;
+  text-align: center;
+  font-size:50px;
+  font-family:'Yanone Kaffeesatz',sans-serif;
+
+}
+img{
+  opacity: 0.4;
+  width:20%;
+  padding-top:20px;
+padding-left: 450px;
+
+}
+img:hover{
+  opacity: 0.5;
+}
+.code{
+  color:white;
+}
+.sidenav{
+  display:none;
+  height:100%;
+  width:199px;
+  z-index:1;
+  position:fixed;
+  overflow-x: hidden;
+  padding-top:60;
+  background-color: #CCC;
+
+}
+span{
+  color:White;
+padding-top: 0px;
+
+
+}
+.sidenav .opennav{
+  color:White;
+}
+.sidenav a{
+  padding:30px 28px 8px 32px;
+  text-decoration: none;
+  font-size: 15px;
+  color:Black;
+  display:block;
+
+}
+.sidenav a:hover{
+  background-color:#36454f;
+  font-weight: bold;
+  font-family: arial;
+  color:white;
+  opacity: 0.9;
+}
+@keyframes example {
+10%{left:200px;top:0px;}
+100%{left:0px;top:0px;}
+
+}
+.sidenav a{
+ animation-name: example;
+ animation-duration: 2s;
+   position: relative;
+}
+
+h2{
+  color:white;
+  font-family: Arial;
+  text-align: center;
+  font-size:35px;
+}
+@keyframes h1{
+  50%{left:500px;}
+  100%{left:0px;}
+}
+h1{
+  animation-name: h1;
+  animation-duration: 0.5s;
+  position: relative;
+}
+@keyframes h3{
+  0%{right:500px;}
+  100%{right:0px;}
+}
+h3{
+  animation-name: h3;
+  animation-duration: 2s;
+  position: relative;
+  animation-delay: 5.8s;
+}
+p{color:white;
+font-size: 25px;
+font-family: sans-serif;
+text-align: center;
+font-weight: bold;
+}
+div img{
+  width:20%;
+  padding-left: 300px;
+}
+
+h3{
+  color:white;
+font-size: 25px;
+font-family: Arial;
+text-align: center;
+}
+
+@keyframes p1{
+  0%{color:black;}
+  10%{top:500px;}
+  100%{top:0px;color:white;}
+}
+p{
+  animation-name: p1;
+  animation-duration: 2s;
+  position:relative;
+}
+@keyframes info{
+  0%{color:black;}
+  10%{top:500px;}
+  100%{top:0px;color:white;}
+}
+
+
+.info p {
+  animation-name:info;
+  animation-duration: 10.5s;
+  position:relative;
+}
+@keyframes info2{
+  0%{opacity:0;}
+  10%{top:500px;}
+  100%{top:0px;opacity:0.6;}
+}
+
+div img{
+  animation-name:info2;
+  animation-duration: 8s;
+  position:relative;
+}
+@keyframes conc{
+  0%{color:black;}
+  10%{top:500px;}
+  100%{top:0px;color:white;}
+}
+.conc p{
+  animation-name:conc;
+  animation-duration:26s;
+  position:relative;
+}
+.skillset{
+width:1300px;
+background-color:Black;;
+padding:10px;
+border-radius: 5px;
+border: 2px Solid Black;
+}
+
+.skills  {
+  text-align:right;
+  padding-top: 10px;
+  padding-bottom:10px;
+  color:White;
+  font-family:Century;
+  background-color: #ccc;
+  border-radius: 5px;
+  border:0.25px solid Black;
+  }
+.cs{
+width:100%;
+text-align: center;
+color:aqua;
+background-color:black;
+}
+@keyframes skills {
+  0%{background-color:aqua;}
+  20%{width:200px;}
+    30%{width:300px;}
+      40%{width:700px;}
+        50%{width:900px;}
+       60%{width:1000px;}
+              100%{width:1300px;color:aqua;background-color: aqua;}
+}
+.cs{
+  animation-name:skills;
+  animation-duration:7s;
+  position: relative;
+  animation-delay: 26s;
+}
+div p{
+  color:black;
+  font-size:13px;
+}
+.launch p{
+  color:black;
+  font-size:13px;
+}
+@keyframes dis{
+  0%{color:white}
+  100%{color:black;}
+}
+.launch p{
+  animation-name: dis;
+  animation-duration: 7s;
+  animation-delay: 26s;
+  position: relative;
+}
+@keyframes diss{
+  0%{color:black}
+  100%{color:white;}
+}
+div p{
+  animation-name: diss;
+  animation-duration: 16s;
+  position: relative;
+  animation-delay: 26s;
+}
+text{
+  font-size: 19px;
+  color:black;
+  text-align:center;
+  padding-left: 550px;
+}
+@keyframes t{
+  0%{color:white;}
+  100%{color:black;}
+}
+text{
+  animation-name: t;
+  animation-duration: 27s;
+  position: relative;
+}
